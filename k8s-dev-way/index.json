@@ -6,7 +6,8 @@
   "details": {
     "steps": [{
       "title": "Step 1 - deployments",
-      "text": "deployments/step1.md"
+      "text": "deployments/step1.md",
+      "courseData": "background-init.sh"
     },
   {
       "title": "Step 2 - deployments",
