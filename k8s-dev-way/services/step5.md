@@ -1,3 +1,0 @@
-## NodePort
-
-## LoadBalancer
