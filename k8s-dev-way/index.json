@@ -22,7 +22,6 @@
     }],
     "intro": {
       "text": "intro.md",
-      "courseData": "setup.sh",
       "credits": "Franck Cussac, Guillaume Lhermenier"
     },
     "finish": {
