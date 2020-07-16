@@ -1,0 +1,46 @@
+{
+  "title": "Kubernetes the dev way",
+  "description": "Découvrez les ressources de base de kubernetes pour déployer vos applications.",
+  "difficulty": "beginner",
+  "time": "120 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - deployments",
+      "text": "deployments/step1.md"
+    },
+  {
+      "title": "Step 2 - deployments",
+      "text": "deployments/step2.md"
+    },
+  {
+      "title": "Step 3 - services",
+      "text": "services/step3.md"
+    },
+  {
+      "title": "Step 4 - services",
+      "text": "services/step4.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "background": "launch.sh",
+      "credits": "Franck Cussac, Giom Lhermenier"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  },
+  "files": [
+    "Dockerfile",
+    "pod.yaml",
+    "deployment.yaml",
+    "service.yaml"
+  ]
+}
