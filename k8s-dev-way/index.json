@@ -29,12 +29,11 @@
     }
   },
   "environment": {
-    "hideintro": true,
     "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n"
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running:1.18"
+    "imageid": "kubernetes-cluster-running"
   },
   "files": [
     "Dockerfile",
