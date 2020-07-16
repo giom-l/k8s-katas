@@ -22,7 +22,7 @@
     }],
     "intro": {
       "text": "intro.md",
-      "data": "aliases.sh",
+      "courseData": "aliases.sh",
       "credits": "Franck Cussac, Giom Lhermenier"
     },
     "finish": {
