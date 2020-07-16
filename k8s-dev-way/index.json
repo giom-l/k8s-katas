@@ -33,8 +33,7 @@
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n"
   },
   "backend": {
-    "hideHiddenFiles": true,
-    "imageid": "kubernetes-cluster-running"
+    "imageid": "kubernetes-cluster-running:1.18"
   },
   "files": [
     "Dockerfile",
