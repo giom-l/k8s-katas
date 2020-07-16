@@ -2,7 +2,7 @@
 
 On peut facilement créer un pod pour déployer notre cactus front :
 
-`kubectl run cactus-front --generator=run-pod/v1 --image=scauglog/hello-front:nginx`{{execute}}
+`kubectl run cactus-front --generator=run-pod/v1 --image=scauglog/hello-front:nginx-alpine`{{execute}}
 
 Attendez de le voir en status **running** : `kubectl get pods`{{execute}}
 
@@ -15,7 +15,7 @@ Pour éviter ce genre de problème, on ne crée pas directement un pod mais un d
 
 Créer un deployment avec les caractéristiques suivantes :
 * **deploy name** : cactus-front
-* **image** : scauglog/hello-front:nginx
+* **image** : scauglog/hello-front:nginx-alpine
 * **replicas** : 1
 * **containerPort** : 80
 * **labels** : app=front
