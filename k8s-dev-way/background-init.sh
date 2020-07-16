@@ -1,3 +1,4 @@
 launch.sh
-alias k=kubectl
-complete -F __start_kubectl k
+echo "alias k=kubectl" >> ~/.bashrc
+echo "complete -F __start_kubectl k" >> ~/.bashrc
+source ~/.bashrc
