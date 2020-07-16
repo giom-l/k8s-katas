@@ -4,24 +4,30 @@
   "difficulty": "beginner",
   "time": "120 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - deployments",
-      "courseData":"background-init.sh",
-      "code":"foreground-init.sh" ,
-      "text": "deployments/step1.md"
-    },
-  {
-      "title": "Step 2 - deployments",
-      "text": "deployments/step2.md"
-    },
-  {
-      "title": "Step 3 - services",
-      "text": "services/step3.md"
-    },
-  {
-      "title": "Step 4 - services",
-      "text": "services/step4.md"
-    }],
+    "steps": [
+      {
+        "title": "Step 0 - Configuration",
+        "courseData": "background-init.sh",
+        "code": "foreground-init.sh",
+        "text": "step0.md"
+      },
+      {
+        "title": "Step 1 - deployments",
+        "text": "deployments/step1.md"
+      },
+      {
+        "title": "Step 2 - deployments",
+        "text": "deployments/step2.md"
+      },
+      {
+        "title": "Step 3 - services",
+        "text": "services/step3.md"
+      },
+      {
+        "title": "Step 4 - services",
+        "text": "services/step4.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": "Franck Cussac, Guillaume Lhermenier"
