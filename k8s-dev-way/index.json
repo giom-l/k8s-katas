@@ -38,7 +38,9 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n",
+    "showdashboard": true,
+    "dashboards": [{"name": "cactus-front", "port": 80}]
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
