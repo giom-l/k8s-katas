@@ -8,7 +8,6 @@
       {
         "title": "Step 0 - Configuration",
         "courseData": "background-init.sh",
-        "code": "foreground-init.sh",
         "text": "step0.md"
       },
       {
