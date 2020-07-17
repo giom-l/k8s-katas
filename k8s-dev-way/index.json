@@ -7,7 +7,7 @@
     "steps": [
       {
         "title": "Step 0 - Configuration",
-        "courseData": "background-init.sh",
+        "code": "foreground-init.sh",
         "text": "step0.md"
       },
       {
@@ -36,7 +36,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
+    "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n",
     "showdashboard": true,
     "dashboards": [{"name": "cactus-front", "port": 80}]
